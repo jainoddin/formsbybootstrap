@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./bootstrap.css">
+
+    </head>
+    <body>
+        <form class="row g-3 m-5">
+            <div class="text-center">
+                <h2>Online Application Form</h2>
+            </div>
+            <div class="text-center mt-3">
+                <h5>Please fill out the folloing fields to sumbit your application </h5>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label" for="fn" >First Name</label>
+                <input type="text" id="fn" class="form-control" placeholder="Enter your first name">
+            </div>
+            <div class="col-md-6">
+                <label class="form-label" for="ln">Last Name</label>
+                <input type="text" id="fn" class="form-control" placeholder="Enter your last name">
+            </div>
+            
+            <div class="col-mt-3">
+                <label class="form-label" for="ln">Email Address*</label>
+                <input type="text" class="form-control" placeholder="Enter your Email address"><br>
+                <div class="col-md-6">
+                    <figure class="text-center mr-5">
+                        <figcaption class="blockquote-footer">
+                          we'lluse this to contact you about your application
+                        </figcaption>
+                    </figure>   
+                </div>              
+            </div>
+            <div class="col-12">
+                <label class="form-label">Contact Number</label>
+                <input type="text" class="form-control" placeholder="Enter your contact number"><br>
+            </div>
+            <div class="col-12">
+                <label class="form-label">Date Of Birth</label>
+                <input type="text" class="form-control" placeholder="Enter your Date Of Birth"><br>
+                <div class="col-md-6">
+                    <figure class="text-center mr-5">
+                        <figcaption class="blockquote-footer">
+                          please use this format: MM/DD/YYYY
+                        </figcaption>
+                    </figure>   
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="state" class="form-label">State</label>
+                <select id="state" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>TS</option>
+                  <option>AP</option>
+                  <option>UP</option>
+                </select>
+            </div>
+             <div class="col-md-6">
+                <label class="form-label" >City</label>
+                <input type="text" class="form-control" placeholder="Enter your City">
+            </div>
+
+            <div class="col-md-12">
+                <label class="form-label" >Why do you want to apply?</label>
+                <textarea name="" id="" class="form-control" placeholder="Tell us more about your motivations" cols="30" rows="3"></textarea>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label" >Upload Resume</label>
+                <input type="file" class="form-control" placeholder="Choose file or Drop here">
+            </div>
+            <div class="col-md-7">
+                <input type="checkbox" id="c">
+                <label><h6>I agree to the terms and conditions</h6></label>                
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn btn-success mt-3">Submit Application</button>            
+            </div>
+
+
+            
+              
+            
+           
+        </form>
+    </body>
+</html>
